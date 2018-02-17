@@ -70,7 +70,7 @@
     `(perform ,name ,bindings ,@body))
   
   (defun flatten (x)
-    (lol:flatten x))
+    (lol:flatten x))                    ; Make SBCL happy
 
   ;; in ML these are referred to as sections
   ;; these actually correspond to the Dylan operators
